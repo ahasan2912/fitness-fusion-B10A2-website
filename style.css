@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* ----------- font family ------------ */
+.inter-font-family{
+    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -------- Essential class -------- */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.primary-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 12px 25px 12px 25px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+#download-btn{
+    background-color: rgb(63, 62, 62);
+    margin-left: .2rem;
+}
+/* -------- header section ---------- */
+.header-bg-color{
+    background: linear-gradient(rgb(17, 17, 17),rgba(119, 119, 119));
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    padding: .2rem 1rem .2rem .2rem;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left:2rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.124rem;
+    text-align: left;
+}
+.navbar-title{
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+}
+#home-bnt{
+    border-radius: 44px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    border-radius: 15px;
+    margin-left: 0rem;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.banner-text{
+    width: 50%;
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 520px;   
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+.banner-img-styling{
+    position: relative;
+}
+.banner-img-styling img{
+    width: 100%;
+}
+.red-circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-left: .5rem;
+}
+.rating-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 180px;
+    height: 90px;
+    text-align: center;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    position: absolute;
+    top: 27%;
+    left: 65%;
+    text-align: left;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: -23%;
+    text-align: left;
+}
+.card1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 1rem;
+}
+.card2 h1{
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: .5rem;
+}
+.card1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    text-align: left;
+    margin-left: 1rem;
+}
+.card2 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    text-align: left;
+    margin-left: .5rem;
+}
