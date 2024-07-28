@@ -70,6 +70,7 @@
         font-size: 1.8rem;
     }
     .run-extra-section{
+        padding: 2rem 2rem;
         flex-direction: column;
         gap: 2rem;
     }
@@ -82,6 +83,37 @@
     #join-now{
         width: 100%;
      }
+     .exercises-container-1{
+        grid-template-columns: 1fr 1fr;
+    }
+    .exercises-container-2{
+        grid-template-columns: 1fr 1.3fr;
+    }
+    .training-section p {
+        width: 100%;
+    }
+    .exercises-item p{
+        width: 100%;
+    }
+    .one{
+        background-position: 40% 100%;
+    }
+    .two{
+        background-position: 70% 100%;
+    }
+     .three{
+        display: none;
+     }
+     .four{
+        background-position: 30% 100%;
+     }
+     .six{
+        display: none;
+     }
+     .four p{
+        left: 15%;
+        top: 75%;
+    }
 }
 /* -------------------- Medium Devices ------------------ */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -138,9 +170,6 @@
         flex-direction: column;
         gap: 2rem;
     }
-    /* .run-extra-text{
-        width: 100%;
-    } */
     .run-extra-text p {
         text-align: justify;
     }
@@ -151,5 +180,26 @@
     }
     .run-extra-text{
         width: 100%;
+    }
+    .training-section p {
+        width: 100%;
+    }
+    .exercises-item p{
+        width: 100%;
+    }
+    .exercises-item{
+        background-size: 100%   100%;
+    }
+    .one p{
+        left: 5px;
+    }
+    .three p{
+        left: 0px;  
+    }
+    .four p{
+        left: 30%;
+    }
+    .five p{
+        left: 5px;
     }
 }
