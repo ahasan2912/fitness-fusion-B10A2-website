@@ -28,7 +28,12 @@
     }
     .card1{
         top: 12%;
-        left: 52%;
+        left: 53%;
+    }
+    .rating-card{
+        width: 160px;
+        height: 90px;
+
     }
     .card2{
         display: flex;
@@ -181,6 +186,9 @@
         padding: 4rem 2rem;
         align-items: self-start;
         gap: 3rem;
+    }
+    .run-extra-img{
+        width: 80%;
     }
     .run-extra-text{
         width: 100%;
