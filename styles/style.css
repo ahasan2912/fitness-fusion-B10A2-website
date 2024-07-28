@@ -274,7 +274,7 @@ main section{
     text-align: left;   
     margin-bottom: 1rem;
 }
-.training-section p{
+.training-description{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     line-height: 24px;
@@ -353,4 +353,8 @@ main section{
     position: absolute;
     left: 30px;
     top: 75%;   
+}
+.bmi-calculator{
+    margin: 7rem 0rem 7rem 12rem;
+    padding-bottom: 5rem;
 }

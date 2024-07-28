@@ -89,10 +89,7 @@
     .exercises-container-2{
         grid-template-columns: 1fr 1.3fr;
     }
-    .training-section p {
-        width: 100%;
-    }
-    .exercises-item p{
+    .training-description {
         width: 100%;
     }
     .one{
@@ -111,8 +108,15 @@
         display: none;
      }
      .four p{
-        left: 15%;
-        top: 75%;
+        left: 5%;
+        top: 70%;
+    }
+    .bmi-calculator{
+        margin: 2rem 0rem 0rem 0rem;
+        padding-bottom: 2rem;
+    }
+    .bmi-calculator h1{
+        font-size: 3rem;
     }
 }
 /* -------------------- Medium Devices ------------------ */
@@ -201,5 +205,9 @@
     }
     .five p{
         left: 5px;
+    }
+    .bmi-calculator{
+        margin: 7rem 0rem 7rem 0rem;
+        padding-bottom: 5rem;
     }
 }
