@@ -1,0 +1,155 @@
+/* ------------------ Small Device ------------------ */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 4rem 1.5rem 0rem 1.5rem;
+    }
+    .bar-icon{
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-title{
+        width: 100%;
+        font-size: 3rem;   
+    }
+    .card1{
+        top: 12%;
+        left: 53%;
+    }
+    .card2{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 42%;
+        left: 0%;
+        text-align: left;
+    }
+    .button-class{
+        text-align: center;
+    }
+    .primary-btn{
+        padding: 1rem 1.8rem 1rem 1.8rem;
+        font-size: 1rem;
+    }
+    main section{
+        width: 90%;
+    }
+    .habits-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+        margin: 0 auto;
+    }
+    .change-habits-title{
+        width: 100%;
+    }
+    .change-habits-descriptoin{
+        width: 100%;
+    }
+    .change-habits-title{
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    .change-habits-descriptoin{
+        width: 100%;
+    }
+    .habits-card h4{
+        font-size: 1.8rem;
+    }
+    .run-extra-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .run-extra-text{
+        width: 100%;
+    }
+    .run-extra-text p {
+        text-align: justify;
+    }
+    #join-now{
+        width: 100%;
+     }
+}
+/* -------------------- Medium Devices ------------------ */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 4rem .5rem 0px 2rem;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-title{
+        /* width: 100%; */
+        font-size: 4rem;   
+    }
+    .banner-description{
+        padding: 0rem 7rem 0rem 0rem;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin-left:1.2rem;
+    }
+    .button-class{
+        text-align: center;
+    }
+    .primary-btn{
+        padding: 1.5rem 3rem 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+    .habits-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    main section{
+        width: 80%;
+    }
+    .change-habits-title{
+        width: 100%;
+        font-size: 2.8rem;
+    }
+    .change-habits-descriptoin{
+        width: 100%;
+    }
+    .habits-card h4{
+        font-size: 1.8rem;
+    }
+    .run-extra-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    /* .run-extra-text{
+        width: 100%;
+    } */
+    .run-extra-text p {
+        text-align: justify;
+    }
+    .run-extra-section{
+        padding: 4rem 2rem;
+        align-items: self-start;
+        gap: 3rem;
+    }
+    .run-extra-text{
+        width: 100%;
+    }
+}
