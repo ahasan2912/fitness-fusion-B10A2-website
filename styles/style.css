@@ -2,7 +2,7 @@
 @font-face {
     font-family: myFont;
     font-style: italic;
-    src: url(//styles/Miama.otf);
+    src: url("../styles/Miama.ttf");
 }
 
 /* ----------- font family ------------ */
@@ -100,6 +100,8 @@
 }
 .shape{
     font-family: myFont;
+    font-weight: 100;
+    font-size: 10rem;
 }
 .banner-description{
     color: rgba(255, 255, 255, 0.5);
