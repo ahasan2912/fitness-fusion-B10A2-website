@@ -82,6 +82,9 @@
     .run-extra-text{
         width: 100%;
     }
+    .run-extra-text h1{
+        width: 350px;
+    }
     .run-extra-text p {
         text-align: justify;
     }
@@ -93,6 +96,9 @@
     }
     .exercises-container-2{
         grid-template-columns: 1fr 1.3fr;
+    }
+    .training-section h1{
+        font-size: 3rem;
     }
     .training-description {
         width: 100%;
@@ -114,14 +120,71 @@
      }
      .four p{
         left: 5%;
-        top: 70%;
+        top: 75%;
+    }
+    .bim-container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
     }
     .bmi-calculator{
         margin: 2rem 0rem 0rem 0rem;
-        padding-bottom: 2rem;
     }
-    .bmi-calculator h1{
+    .bmi-description h1{
         font-size: 3rem;
+    }
+    .bmi-description{
+        margin: 7rem 0rem 7rem 0rem;
+    }
+    .bim-container{
+        display: flex;
+       flex-direction: column;
+    }
+    .bmi-calculator-char{
+        width:100%;
+    }
+    .bmi-calculate{
+        width: 100%;
+    }
+    .meetup-contianer{
+        grid-template-columns: 1fr;
+    }
+    .meetup-text h1{
+        font-size: 1.5rem;
+        margin-bottom: .4rem;
+    }
+    .meetup-text p{
+        font-size: 1rem;
+    }
+    .meetup-text{
+        top: 80%;
+    }
+    .footer-container{
+        width: 90%;
+        margin: 0rem auto;
+        padding-top: 3rem;
+    }
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-title-description{
+        margin-bottom: 2rem;
+    }
+    .get-started h1{
+        color: rgb(255, 255, 255);
+    }
+    .footer-title-description{
+        width: 100%;
+    }
+    .get-started h1{
+        font-size: 2.2rem;
+    }
+    .footer-title-description h1{
+        font-size: 4.5rem;
+    }
+    .footer-copy-write{
+        width: 90%;
     }
 }
 /* -------------------- Medium Devices ------------------ */
@@ -179,6 +242,10 @@
         flex-direction: column;
         gap: 2rem;
     }
+     .run-extra-text h1{
+        width: 300px;
+    }
+    
     .run-extra-text p {
         text-align: justify;
     }
@@ -214,8 +281,43 @@
     .five p{
         left: 5px;
     }
-    .bmi-calculator{
+    .bmi-description{
         margin: 7rem 0rem 7rem 0rem;
-        padding-bottom: 5rem;
+    }
+    .bim-container{
+        display: flex;
+       flex-direction: column;
+    }
+    .bmi-calculator-char{
+        width:100%;
+    }
+    .bmi-calculate{
+        width: 100%;
+    }
+    .meetup-text{
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+    .meetup-contianer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-container{
+        width: 80%;
+        margin: 0rem auto;
+        padding-top: 3rem;
+    }
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-title-description{
+        grid-column: span 3;
+        margin-bottom: 2rem;
+    }
+    .get-started h1{
+        color: rgb(255, 255, 255);
+    }
+    .footer-copy-write{
+        width: 80%;
     }
 }

@@ -71,6 +71,7 @@
     font-size: 2.5rem;
     font-weight: 800;
     text-align: left;
+    font-style: italic;
 }
 #home-bnt{
     border-radius: 44px;
@@ -104,6 +105,7 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     margin: 2rem 0;
+    text-align: justify;
 }
 .banner-img-styling{
     position: relative;
@@ -226,7 +228,7 @@ main section{
 /* ------------- run-extra ------------ */
 .run-extra-section{
     padding: 4rem 4rem;
-    background-color: rgb(66, 65, 63);
+    background-color: rgb(46, 45, 45);
     margin-bottom: 3rem;
     border-radius: 1.5rem;
     display: flex;
@@ -239,12 +241,14 @@ main section{
 }
 .run-extra-img img{
     width: 100%;
+    height: 300px;
     border-radius: 1rem;
 }
 .run-extra-text h1{
-    font-size: 3.2rem;
+    font-size: 2.9rem;
     color: #fff;
     font-weight: 900;
+    width: 350px;
 }
 .run-extra-text p{
     font-size: 1rem;
@@ -254,6 +258,8 @@ main section{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
+    width: 90%;
+    text-align: justify;
 }
 #join-now{
     padding: 1rem 4rem 1rem 4rem;
@@ -279,7 +285,7 @@ main section{
     font-size: 1rem;
     line-height: 24px;
     letter-spacing: 0.3px;
-    text-align: left;
+    text-align: justify;
     width: 60%;
     margin-bottom: 3rem;
 }
@@ -354,7 +360,232 @@ main section{
     left: 30px;
     top: 75%;   
 }
-.bmi-calculator{
+.bmi-description{
     margin: 7rem 0rem 7rem 12rem;
+}
+
+/* ---------- bmi-calculator Section ----------- */
+.bmi-calculator-section{
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+}
+.bim-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-calculator-char{
+    width:50%;
+}
+.bmi-calculate{
+    width: 50%;
+}
+.bmi-calculator-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: left;   
+    margin: 1.5rem 0;
+}
+.bmi-calculator-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    line-height: 1.5rem;    
+    text-align: justify;
+    /* width: 450px; */
+}
+.table{
+    border-collapse: collapse;
+    margin-top: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+.table td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1.3rem;
+}
+.table th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.input-1{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    gap: .5rem;
+    margin: .8rem 0;
+}
+input[type="text"]{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+input,
+input::placeholder {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.input-2{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.input-2 select{
+    width: 100%;
+}
+select{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.2rem 2rem 1.2rem 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+}
+.input-3 select{
+    width: 100%;
+    margin: .8rem 0;
+}
+
+/* ----------------- meetup-section ------------------- */
+.meetup-section{
+    margin-top: 5rem;
     padding-bottom: 5rem;
+}
+.meetup-contianer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 18px;
+}
+.meetup-man{
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.trainer-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../images/trainer1.png);
+    border-radius: 13px;
+}
+.trainer-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/trainer2.png);
+    border-radius: 13px;
+}
+.trainer-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/trainer3.png);
+    border-radius: 13px;
+}
+.trainer-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/trainer4.png);
+    border-radius: 13px;
+}
+.trainer-5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/trainer5.png);
+    border-radius: 13px;
+}
+.trainer-6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../images/trainer6.png);
+    border-radius: 13px;
+}
+.meetup-text{
+    position: absolute;
+    top: 83%;
+    left: 5%;
+}
+.meetup-text h1{
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: .3rem;
+}
+.meetup-text p{
+    font-size: .9rem;
+    color: rgba(245, 243, 243, 0.5);
+}
+.meetup-description{
+    margin-bottom: 2rem;
+}
+
+/* ---------------- footer --------------- */
+.footer-container{
+    width: 70%;
+    margin: 0rem auto;
+    padding-top: 3rem;
+}
+.footer-container{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: self-start;
+}
+.footer-title-description{
+    text-align: justify;
+    width: 350px;
+    padding-right: 1rem;
+}
+.footer-title-description h1{
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: .5rem;
+}
+.footer-title-description p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.get-started h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.get-started ul li{
+    list-style: none;
+    margin-bottom: 1.3rem;
+}
+.get-started ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    line-height: 120%;
+    text-align: left;
+}
+.footer-copy-write{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+.line{
+    border: 1.2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+}
+.footer-copy-write p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.15rem;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 350;
 }
