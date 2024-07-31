@@ -288,20 +288,21 @@ main section{
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: justify;
-    width: 60%;
+    width: 750px;
     margin-bottom: 3rem;
 }
 .exercises-container-1{
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .exercises-container-2{
     display: grid;
     grid-template-columns: 1.5fr 1fr 1.5fr;
 }
 .exercises-item{
-    height: 30vh;
+    /* height: 30vh; */
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,9 +364,17 @@ main section{
     top: 75%;   
 }
 .bmi-description{
-    margin: 7rem 0rem 7rem 12rem;
+    margin: 5rem 0rem 5rem 7rem;
 }
-
+.training-description2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    width: 630px;
+    margin-bottom: 3rem;
+}
 /* ---------- bmi-calculator Section ----------- */
 .bmi-calculator-section{
     width: 100%;
@@ -474,7 +483,8 @@ select{
     border-radius: 18px;
 }
 .meetup-man{
-    height: 40vh;
+    /* height: 40vh; */
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
