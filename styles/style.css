@@ -47,20 +47,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 0rem;
+    padding: 1rem 8rem;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background: #272626;
 }
-.navbar ul{
+.menubar{
     display: flex;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
     padding: .2rem 1rem .2rem .2rem;
 }
-.navbar ul li{
+.menubar li{
     list-style: none;
     margin-left:2rem;
 }
-.navbar ul li a{
+.menubar li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.124rem;
@@ -72,6 +78,10 @@
     font-weight: 800;
     text-align: left;
     font-style: italic;
+}
+/*------ humbarger-menu------ */
+.humbarger-menu input[type="checkbox"]{
+    display: none;
 }
 #home-bnt{
     border-radius: 44px;
@@ -85,6 +95,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
+    margin-top: 5rem;
 }
 .banner-text{
     width: 50%;
@@ -178,11 +189,11 @@
 /* ------------ main section ---------- */
 main{
     background-color: rgb(24, 23, 23);
+    padding-bottom: 3rem;
 }
 main section{
     width: 70%;
     margin: 0rem auto;
-    /* margin-bottom: 3rem; */
 }
 /* ------------ change-habit section ---------- */
 .change-habits{
@@ -267,6 +278,20 @@ main section{
     padding: 1rem 4rem 1rem 4rem;
     font-size: 1.3rem;
     margin-top: .5rem;
+}
+#join-now2{
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.3rem;
+    margin-top: .5rem;
+}
+.join-now{
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 43px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background: rgb(230, 83, 60);
 }
 
 /* --------- Exercises Section -------------- */
@@ -408,7 +433,7 @@ main section{
 }
 .table{
     border-collapse: collapse;
-    margin-top: 1.6rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
 .table td,th{
@@ -532,6 +557,145 @@ select{
     margin-bottom: 2rem;
 }
 
+/* --------- Pricing section---------- */
+.pricing-section{
+    padding-bottom: 2rem;
+}
+.pricing-titel{
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-top: 2rem;
+}
+.pricing-card{
+    border: 1px solid #6c757d;;
+    padding: .8rem;
+    border-radius: 5px;
+}
+.pricing-img{
+    background: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.pricing-img img{
+   width: 45px;
+   text-align: center;
+   margin-top: .5rem;
+}
+.pricing-heading h1{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.pricing-heading p{
+    color: #FF0000;
+    font-size: 1rem;
+    margin-top: .2rem;
+}
+.single-class{
+    font-size: .7rem;
+    color: #dddddd;
+}
+.tick-mark-item{
+    margin-top: 2rem;
+}
+.tick-mark-item li{
+    list-style: none;
+    margin-top: 1rem;
+    font-size: .7rem;
+}
+.tick-mark-item li{
+    color: #fff;
+}
+.fa-check{
+    color: #FF0000;
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+.border-btn {
+    font-size: .7rem;
+    font-weight: 600;
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+.border-btn:hover{
+    background: #FF0000;
+    transition: 0.4s;
+}
+/* ---------- Our Class Section --------------- */
+.our-classes{
+    background-color: rgb(37, 34, 34);
+    margin-top: 2rem;
+    border-radius: 8px;
+    padding: 2rem 2rem 1rem 2rem;
+}
+.classes-title-description{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.classes-title-description h1{
+    font-size: 4rem;
+    color: #fff;
+}
+.classes-title-description img{
+    margin: 1rem 0;
+}
+.classes{
+    color: rgb(230, 83, 60);
+}
+.class-schedule-description{
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    width: 620px;
+    margin: 0rem auto;
+}
+.schedule-container{
+    margin-top: 3rem;
+}
+.schedule-container h5{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.table2{
+    border-collapse: collapse;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.table2 td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2.5rem 1rem;
+}
+.table2 th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.table2 td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
 /* ---------------- footer --------------- */
 .footer-container{
     width: 70%;
@@ -589,7 +753,7 @@ select{
     margin-top: 2rem;
     text-align: center;
 }
-.line{
+.hr-line{
     border: 1.2px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 1rem;
 }
