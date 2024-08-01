@@ -105,6 +105,9 @@
     #join-now{
         width: 100%;
      }
+     #join-now2{
+        width: 100%;
+     }
      .exercises-container-1{
         grid-template-columns: 1fr 1fr;
     }
