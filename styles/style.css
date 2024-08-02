@@ -578,7 +578,8 @@ select{
     border-radius: 5px;
 }
 .pricing-img{
-    background: red;
+    /* background: red; */
+    background: rgb(230, 83, 60);
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -595,7 +596,8 @@ select{
     margin-top: 1.5rem;
 }
 .pricing-heading p{
-    color: #FF0000;
+    /* color: #FF0000; */
+    color: rgb(230, 83, 60);
     font-size: 1rem;
     margin-top: .2rem;
 }
@@ -615,7 +617,8 @@ select{
     color: #fff;
 }
 .fa-check{
-    color: #FF0000;
+    /* color: #FF0000; */
+    color: rgb(230, 83, 60);
     font-size: 1rem;
     margin-right: .5rem;
 }
@@ -633,7 +636,8 @@ select{
     margin-top: 1.5rem;
 }
 .border-btn:hover{
-    background: #FF0000;
+    /* background: #FF0000; */
+    background: rgb(230, 83, 60);
     transition: 0.4s;
 }
 /* ---------- Our Class Section --------------- */
