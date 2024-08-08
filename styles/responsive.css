@@ -366,6 +366,9 @@
         text-align: center;
         padding: .6rem;
     }
+    .footer-title-description h1{
+        font-size: 3.5rem;
+    }
 }
 /* -------------------- Medium Devices ------------------ */
 @media screen and (min-width: 576px) and (max-width: 992px) {
