@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness-Website</title>
+    <title>Fitness-fusion</title>
     <script src="https://kit.fontawesome.com/8ba9c3bc75.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -22,10 +22,10 @@
                     <span class="line line3"></span>
                 </div>
                 <ul class="menubar">
-                    <li id="home-bnt"><a href="#">Home</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
+                    <li id="home-bnt"><a href="index.html">Home</a></li>
+                    <li><a href="#classes">Service</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="#trainer">About</a></li>
                 </ul>
             </div>
         </nav>
@@ -36,8 +36,8 @@
                     Achieve your fitness goals and maintain a healthier lifestyle with personalized workouts and
                     nutrition tips.</p>
                 <div class="button-class">
-                    <button class="primary-btn">Join Club Now!</button>
-                    <button id="download-btn" class="primary-btn">Download App</button>
+                    <a href="#admission"><button class="primary-btn" type="button">Join Club Now!</button></a>
+                   <a href="#bookmark"> <button type="button" id="download-btn" class="primary-btn">Download App</button></a>
                 </div>
             </div>
             <div class="banner-img-styling">
@@ -92,7 +92,9 @@
                 <p>We believe fitness should be accessible to everyone,
                     everywhere, regardless of income or access to a gym. With
                     hundreds of professional workouts.</p>
-                <button id="join-now" class="primary-btn">Join Now</button>
+                <a href="#admission">
+                    <button id="join-now" class="primary-btn">Join Now</button>
+                </a>
             </div>
             <div class="run-extra-img">
                 <img src="images/Rectangle 22.png" alt="">
@@ -130,7 +132,7 @@
                     calculator. Understand your weight category and get personalized health insights.</p>
             </div>
         </section>
-        <section class="bmi-calculator-section">
+        <section class="bmi-calculator-section" id="computing">
             <div class="bim-container">
                 <div class="bmi-calculator-char">
                     <h1 class="bmi-calculator-title">BMI Calculator Chart</h1>
@@ -163,26 +165,35 @@
                         user-friendly tool. Simply input your
                         height and weight to determine your BMI. Gain valuable insights into your weight category and
                         receive personalized health recommendations.</p>
-                    <div class="input-1">
-                        <input type="text" placeholder="Height/cm">
-                        <input type="text" placeholder="Weight/kg">
-                    </div>
-                    <div class="input-2">
-                        <input type="text" placeholder="Age">
-                        <select name="" id="">
-                            <option value="">Sex</option>
-                        </select>
-                    </div>
-                    <div class="input-3">
-                        <select name="" id="">
-                            <option>Select an activity factor</option>
-                        </select>
-                    </div>
-                    <button id="join-now2" class="join-now" class="primary-btn">Calculate</button>
+                    <form>
+                        <div class="input-1">
+                            <input type="number" placeholder="Height/cm">
+                            <input type="number" placeholder="Weight/kg">
+                        </div>
+                        <div class="input-2">
+                            <input type="number" placeholder="Age">
+                            <select name="" id="" class="custom-select">
+                                <option value="">Sex</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
+                        </div>
+                        <div class="input-3">
+                            <select name="" id="" class="custom-select">
+                                <option>Select an activity factor</option>
+                                <option value="">Sedentary</option>
+                                <option value="">Moderately Active</option>
+                                <option value="">Very Active</option>
+                            </select>
+                        </div>
+                        <a href="#computing">
+                            <button id="join-now2" class="join-now" class="primary-btn">Calculate</button>
+                        </a>
+                    </form>
                 </div>
             </div>
         </section>
-        <section class="meetup-section">
+        <section class="meetup-section" id="trainer">
             <h1 class="change-habits-title">Meet Our Team</h1>
             <p class="change-habits-descriptoin meetup-description">Get to know the dedicated professionals behind our
                 fitness community. Meet our team of experienced trainers, nutritionists, and wellness experts.</p>
@@ -225,8 +236,8 @@
                 </div>
             </div>
         </section>
-        <section class="pricing-section">
-            <h1 class="change-habits-title pricing-titel">pricing</h1>
+        <section class="pricing-section" id="admission">
+            <h1 class="change-habits-title pricing-titel">Pricing</h1>
             <div class="pricing-container">
                 <div class="pricing-card">
                     <div class="pricing-img">
@@ -244,7 +255,7 @@
                         <li><i class="fa-solid fa-check"></i>Month to mouth</li>
                     </ul>
                     <div>
-                        <button class="border-btn">JOIN NOW</button>
+                        <a href="#admission"><button type="button" class="border-btn">JOIN NOW</button></a>
                     </div>
                 </div>
                 <div class="pricing-card">
@@ -263,7 +274,7 @@
                         <li><i class="fa-solid fa-check"></i>Month to mouth</li>
                     </ul>
                     <div>
-                        <button class="border-btn">JOIN NOW</button>
+                        <a href="#admission"><button type="button" class="border-btn">JOIN NOW</button></a>
                     </div>
                 </div>
                 <div class="pricing-card">
@@ -282,7 +293,7 @@
                         <li><i class="fa-solid fa-check"></i>Month to mouth</li>
                     </ul>
                     <div>
-                        <button class="border-btn">JOIN NOW</button>
+                        <a href="#admission"><button type="button" class="border-btn">JOIN NOW</button></a>
                     </div>
                 </div>
                 <div class="pricing-card">
@@ -301,7 +312,7 @@
                         <li><i class="fa-solid fa-check"></i>Month to mouth</li>
                     </ul>
                     <div>
-                        <button class="border-btn">JOIN NOW</button>
+                        <a href="#admission"><button type="button" class="border-btn">JOIN NOW</button></a>
                     </div>
                 </div>
             </div>
@@ -310,7 +321,7 @@
             <div class="classes-title-description">
                 <h1>Class <span class="classes">Schedule</span></h1>
                 <img src="images/line-decline.png" alt="">
-                <p class="class-schedule-description">Discover a variety of classes tailored to all fitness levels, including high-energy workouts and calming yoga sessions. Join us to find the perfect fit for your fitness journey.</p>
+                <p class="class-schedule-description" id="classes">Discover a variety of classes tailored to all fitness levels, including high-energy workouts and calming yoga sessions. Join us to find the perfect fit for your fitness journey.</p>
             </div>
             <div class="schedule-container">
                 <h5><span class="classes">Saturday</span> / Monday / Wednesday / Friday</h5>
@@ -349,7 +360,7 @@
             </div>
         </section>
     </main>
-    <footer class="bmi-calculator-section">
+    <footer class="bmi-calculator-section" id="footer">
         <div class="footer-container">
             <div class="footer-title-description">
                 <h1>Fitness</h1>
@@ -382,5 +393,4 @@
         </div>
     </footer>
 </body>
-
 </html>

@@ -247,6 +247,10 @@
         margin-left: 2rem;
         padding: 0 0 0 0;
     }
+    .primary-btn{
+        margin: .5rem 0;
+    }
+    /* ---------humbarger-menu---------- */
     .humbarger-menu input[type="checkbox"]{
         display: block;
         width: 36px;
@@ -276,7 +280,6 @@
         height: 5px;
         border-radius: 10px;
     }
-    
     .humbarger-menu input[type="checkbox"]:checked ~ .menubar{
         display: block;
         transform: translateY(0%);

@@ -51,9 +51,9 @@
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1); 
     position: fixed;
     top: 0;
+    background: #272626;
     z-index: 10;
     width: 100%;
-    background: #272626;
 }
 .menubar{
     display: flex;
@@ -458,7 +458,7 @@ main section{
     gap: .5rem;
     margin: .8rem 0;
 }
-input[type="text"]{
+input[type="number"]{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 1.2rem 1.5rem 1.2rem 1.5rem;
@@ -489,6 +489,15 @@ select{
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
 }
+.custom-select option {
+    background-color: gray;
+    color: #fff;
+}
+/* .custom-select:focus {
+    background-color: #007BFF; 
+    color: white;           
+    border-color: #0056b3;   
+} */
 .input-3 select{
     width: 100%;
     margin: .8rem 0;
@@ -561,11 +570,6 @@ select{
 .pricing-section{
     padding-bottom: 2rem;
 }
-.pricing-titel{
-    -webkit-text-stroke: 1px #f6f7f8;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-}
 .pricing-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -626,6 +630,7 @@ select{
     font-size: .7rem;
     font-weight: 600;
     border: 2px solid #fff;
+    border-radius: 40px;
     color: #fff;
     background: none;
     text-transform: uppercase;
